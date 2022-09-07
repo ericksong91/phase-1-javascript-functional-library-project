@@ -1,0 +1,197 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 12,
+    "passes": 12,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-09-07T18:30:22.978Z",
+    "end": "2022-09-07T18:30:23.277Z",
+    "duration": 299
+  },
+  "tests": [
+    {
+      "title": "calls alert with each element passed",
+      "fullTitle": "index.js myEach calls alert with each element passed",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calls alert properly on object values",
+      "fullTitle": "index.js myEach calls alert properly on object values",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the original collection",
+      "fullTitle": "index.js myEach returns the original collection",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "successfully returns a correctly populated array",
+      "fullTitle": "index.js myMap successfully returns a correctly populated array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original array",
+      "fullTitle": "index.js myMap does not modify the original array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "successfully returns a correctly populated array from modified object values",
+      "fullTitle": "index.js myMap successfully returns a correctly populated array from modified object values",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original object",
+      "fullTitle": "index.js myMap does not modify the original object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the correct reduced value when passed an initial value",
+      "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the correct reduced value when not passed an initial value",
+      "fullTitle": "index.js myReduce returns the correct reduced value when not passed an initial value",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original array",
+      "fullTitle": "index.js myReduce does not modify the original array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the correct reduced value from object values",
+      "fullTitle": "index.js myReduce returns the correct reduced value from object values",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original object",
+      "fullTitle": "index.js myReduce does not modify the original object",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns the value if found",
+      "fullTitle": "index.js myFind returns the value if found",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: myFind is not defined\n    at Context.<anonymous> (test/indexTest.js:104:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "myFind is not defined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "calls alert with each element passed",
+      "fullTitle": "index.js myEach calls alert with each element passed",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calls alert properly on object values",
+      "fullTitle": "index.js myEach calls alert properly on object values",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the original collection",
+      "fullTitle": "index.js myEach returns the original collection",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "successfully returns a correctly populated array",
+      "fullTitle": "index.js myMap successfully returns a correctly populated array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original array",
+      "fullTitle": "index.js myMap does not modify the original array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "successfully returns a correctly populated array from modified object values",
+      "fullTitle": "index.js myMap successfully returns a correctly populated array from modified object values",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original object",
+      "fullTitle": "index.js myMap does not modify the original object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the correct reduced value when passed an initial value",
+      "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the correct reduced value when not passed an initial value",
+      "fullTitle": "index.js myReduce returns the correct reduced value when not passed an initial value",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original array",
+      "fullTitle": "index.js myReduce does not modify the original array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the correct reduced value from object values",
+      "fullTitle": "index.js myReduce returns the correct reduced value from object values",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original object",
+      "fullTitle": "index.js myReduce does not modify the original object",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
